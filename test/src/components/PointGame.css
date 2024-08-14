@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.circle-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.status-message {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.clear {
+    color: green;
+}
+
+.game-over {
+    color: red;
+}
+td {
+    text-align: left;
+    padding: 8px;
+}
